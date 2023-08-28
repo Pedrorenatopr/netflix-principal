@@ -76,3 +76,79 @@ p {
     padding: 1em;
 }
 
+.card {
+    display: none;
+}
+
+@media screen  and  (max-device-width: 700px) {
+
+    .cabeçalho-direita {
+        display: none;
+    }
+
+    .cabeçalho-esquerda {
+        display: none;
+    }
+
+    .logo-netflix-principal {
+        width: 100px;
+        margin-top: -2em;
+        padding-left: 50px;
+        left: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: end;
+    }
+
+    .botao {
+        color: white;
+        border: none;
+        background: none;
+        padding-top: 5px;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    .imagem-section-um {
+
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .segunda-section {
+        display: none;
+        margin-top: 2em;
+        margin-left: 100px;
+        top: 0;
+        padding-top: 0;
+        margin-top: 400px;
+        position: absolute;
+    }
+    
+    .terceira-section {
+        display: flex;
+        margin-top: 0;
+        padding: 1em;
+        
+    }
+
+    .primeira-section {
+        display: none;
+    }
+
+    .fotos-filmes {
+    }
+}
