@@ -7,9 +7,13 @@
     <title>Netflix</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <header class="cabeçalho">
+        <div class="icones">
+            <button class="botao"><span id="burguer" class="material-icons md-48" onclick="clickMenu()" >menu</span></button>
+        </div>
         <div class="cabeçalho-direita">
             <ul class="cabeçalho-direita-itens">
                 <li><a href="#" class="itens-direita" ><img src="img/lupa.svg" alt=""></a></li>
@@ -33,6 +37,12 @@
 
         </div>
     </header>
+
+    <article class="card">
+        <img class="imagem-section-um" src="img/peaky-blinders-mobile-um.jpg" width="300px" alt="">
+    </article>
+    
+
     <section class="primeira-section">
         <div class="titulo">
             <h1>Peaky Blinders</h1>
@@ -49,11 +59,12 @@
     </section>
     <section class="terceira-section">
         <div class="filmes">
-            <a href="#"><img src="img/Friends.svg" width="350px" alt=""></a>
-            <a href="#"><img src="img/lucifer.svg"  width="350px" alt=""></a>
-            <a href="#"><img src="img/Dark.svg"  width="350px" alt=""></a>
-            <a href="#"><img src="img/Wenesday.svg" width="350px" alt=""></a>
-            <a href="#"><img src="img/breaking bad.svg"  width="350px" alt=""></a>
+            <p class="texto-card-filmes">Em alta</p>
+            <a href="#"><img src="img/Friends.svg" width="350px" alt="" class="fotos-filmes" ></a>
+            <a href="#"><img src="img/lucifer.svg"  width="350px" alt="" class="fotos-filmes" ></a>
+            <a href="#"><img src="img/Dark.svg"  width="350px" alt="" class="fotos-filmes" ></a>
+            <a href="#"><img src="img/Wenesday.svg" width="350px" alt="" class="fotos-filmes" ></a>
+            <a href="#"><img src="img/breaking bad.svg"  width="350px" alt="" class="fotos-filmes" ></a>
 
         </div>
 
